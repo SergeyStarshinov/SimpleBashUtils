@@ -1,0 +1,41 @@
+-n tests/test|-n tests/test
+-n tests/test tests/test1|-n tests/test tests/test1
+-nb tests/test tests/test1|-nb tests/test tests/test1
+-ns tests/test tests/test1|-ns tests/test tests/test1
+-nb tests/test tests/test1|-nb tests/test tests/test1
+-ne tests/test tests/test1|-ne tests/test tests/test1
+-nt tests/test tests/test1|-nt tests/test tests/test1
+-nbs tests/test tests/test1|-nbs tests/test tests/test1
+-nbe tests/test tests/test1|-nbe tests/test tests/test1
+-nbt tests/test tests/test1|-nbt tests/test tests/test1
+-nbs tests/test tests/test1|-nbs tests/test tests/test1
+-nbse tests/test tests/test1|-nbse tests/test tests/test1
+-nbst tests/test tests/test1|-nbst tests/test tests/test1
+-bestn tests/test tests/test1|-bestn tests/test tests/test1
+-nse tests/test tests/test1|-nse tests/test tests/test1
+-nst tests/test tests/test1|-nst tests/test tests/test1
+-nte tests/test tests/test1|-nte tests/test tests/test1
+-b tests/test tests/test1|-b tests/test tests/test1
+-bs tests/test tests/test1|-bs tests/test tests/test1
+-be tests/test tests/test1|-be tests/test tests/test1
+-bt tests/test tests/test1|-bt tests/test tests/test1
+-bse tests/test tests/test1|-bse tests/test tests/test1
+-bst tests/test tests/test1|-bst tests/test tests/test1
+-bset tests/test tests/test1|-bset tests/test tests/test1
+-s tests/test tests/test1|-s tests/test tests/test1
+-se tests/test tests/test1|-se tests/test tests/test1
+-st tests/test tests/test1|-st tests/test tests/test1
+-set tests/test tests/test1|-set tests/test tests/test1
+-e tests/test tests/test1|-e tests/test tests/test1
+-et tests/test tests/test1|-et tests/test tests/test1
+-t tests/test tests/test1|-t tests/test tests/test1
+-bs -E tests/test|-bs -e tests/test
+-E -T tests/test|-e -t tests/test
+--number-nonblank -s tests/test tests/test1|-b -s tests/test tests/test1
+--number -vE tests/test tests/test1|-n -e tests/test tests/test1
+--number --squeeze-blank tests/test tests/test1|-n -s tests/test tests/test1
+--number -i tests/test|-n -i tests/test
+--squeeze-blank tests/test test2 tests/test1|-s tests/test test2 tests/test1
+--squeeze-blank tests/test - tests/test1|-s tests/test - tests/test1
+-nes|-nes
+|
